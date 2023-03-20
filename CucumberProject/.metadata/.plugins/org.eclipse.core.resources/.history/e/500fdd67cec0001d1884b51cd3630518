@@ -1,0 +1,27 @@
+package StringsHandling;
+
+public class Practise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str="madam";
+		boolean value=str.contains("#");
+		System.out.println(value);
+		String rstr="";
+		
+		for (int i=str.length()-1;i>=0;i--)
+		{
+			rstr=rstr+str.charAt(i);
+		}
+		System.out.println(rstr);
+		if(str.equals(rstr))
+		{
+			System.out.println("Given String is a Palandrome: "+str);
+		}
+			
+		else
+			System.out.println("Given String is not a palandrome "+str);
+			}
+
+}

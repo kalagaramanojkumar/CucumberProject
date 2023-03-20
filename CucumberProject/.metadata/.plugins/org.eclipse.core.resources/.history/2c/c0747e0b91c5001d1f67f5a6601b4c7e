@@ -1,0 +1,23 @@
+package inhertancePackage;
+
+public class ChildClassDemo extends ParentClassDemo{
+
+	
+	public void engine()
+	{
+		System.out.println("new engine ");
+	}
+	
+	public void colour()
+	{
+		System.out.println(colour);
+	}
+	
+	public static void main(String[] args) {
+		
+		ChildClassDemo ccd = new ChildClassDemo();
+		ccd.colour();
+
+	}
+
+}

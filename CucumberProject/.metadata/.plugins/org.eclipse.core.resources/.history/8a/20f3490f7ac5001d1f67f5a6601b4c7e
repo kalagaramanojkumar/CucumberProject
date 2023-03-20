@@ -1,0 +1,32 @@
+package interfacePackage;
+
+public class IndianTraffic implements CentralTraffic{
+
+	public static void main(String[] args) {
+		
+		IndianTraffic it = new IndianTraffic();
+		
+		it.greenGo();
+		it.flashYellow();
+		it.redStop();
+	}
+
+	@Override
+	public void redStop() {
+		
+		System.out.println("redStop Implementation");		
+	}
+
+	@Override
+	public void flashYellow() {
+		System.out.println("flashYellow Implementation");
+		
+	}
+
+	@Override
+	public void greenGo() {
+		System.out.println("greenGo Implementation");
+		
+	}
+
+}
