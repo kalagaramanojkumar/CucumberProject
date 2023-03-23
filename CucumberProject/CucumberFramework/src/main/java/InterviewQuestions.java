@@ -15,6 +15,9 @@ public class InterviewQuestions {
 	
 	long finalvalue=digSum(n);
 	System.out.println(finalvalue);
+	System.out.println("finalvalue2");
+	System.out.println("finalvalue3");
+	System.out.println("Manoj final value 4");
 	 
 	}
 
