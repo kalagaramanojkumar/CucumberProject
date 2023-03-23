@@ -18,6 +18,12 @@ public class InterviewQuestions {
 	System.out.println("finalvalue2");
 	System.out.println("finalvalue3");
 	System.out.println("Manoj final value 5");
+	
+	
+	System.out.println(finalvalue);
+	System.out.println("finalvalue2");
+	System.out.println("finalvalue3");
+	System.out.println("Manoj final value 9");
 	 
 	}
 
